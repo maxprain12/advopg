@@ -1,8 +1,10 @@
 ---
 import '../styles/global.css';
+import siteConfig from '../content/web-data.json';
+const { components } = siteConfig;
 const {
-	title = 'Alder Velasquez: Personal Site',
-	description = 'The personal site of Alder Velasquez',
+	title = components.MainHead.title,
+	description = components.MainHead.description,
 } = Astro.props;
 ---
 

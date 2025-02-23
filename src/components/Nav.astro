@@ -1,11 +1,16 @@
+---
+import siteConfig from '../content/web-data.json';
+const { components } = siteConfig;
+---
+
 <nav>
 	<a class="link" href="/">
-		<div class="monogram">AD</div>
+		<div class="monogram">{ components.Nav.monogram }</div>
 	</a>
 	<a class="link" href="/projects/"> Portfolio</a>
 	<a class="link" href="/about/"> About me</a>
 	<div class="socials">
-		<a class="social" href="https://twitter.com/TheMaxPrain">
+		<a class="social" href={components.Nav.socials.twitter}>
 			<svg
 				class="socialIcon"
 				xmlns="http://www.w3.org/2000/svg"
@@ -16,7 +21,7 @@
 				></path>
 			</svg>
 		</a>
-		<a class="social" href="https://github.com/MaxPrain12">
+		<a class="social" href={components.Nav.socials.github}>
 			<svg
 				class="socialIcon"
 				xmlns="http://www.w3.org/2000/svg"
@@ -27,7 +32,7 @@
 				></path>
 			</svg>
 		</a>
-		<a class="social" href="https://www.instagram.com/ad.vo2/">
+		<a class="social" href={components.Nav.socials.instagram}>
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				width="16"

@@ -1,9 +1,13 @@
 ---
 const currentYear = new Date().getFullYear();
+
+import siteConfig from '../content/web-data.json';
+const { components } = siteConfig;
+
 ---
 
 <footer>
-	&copy; {currentYear} Alder Velasquez
+	&copy; {currentYear} {components.Footer.owner}
 	<small class="byline">🚀 Built by Astro</small>
 </footer>
 <style>

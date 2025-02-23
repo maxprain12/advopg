@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/project.astro
-title: IDboxRT
+title: ""
 client: CIC
 publishDate: 2022-07-01 00:00:00
-img: ../../../dist/assets/idbox.png
+img: https://pbs.twimg.com/media/GHgJD9tWgAoCbPy?format=jpg&name=large
 description: |
   Working on IDboxRT in the Monitoring department
 tags:

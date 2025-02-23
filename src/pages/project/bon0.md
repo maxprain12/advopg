@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/project.astro
-title: Bon0
+title: ""
 client: CIC
 publishDate: 2023-08-01 00:00:00
-img: ../../../dist/assets/bon0.jpeg
+img: https://pbs.twimg.com/media/GEq_4euXcAAZhbF?format=jpg&name=large
 description: |
   Energy Efficiency Software Developer
 tags:
