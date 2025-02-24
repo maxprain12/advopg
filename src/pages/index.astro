@@ -7,7 +7,7 @@ import type { Project } from '../types';
 import siteConfig from '../content/web-data.json';
 
 
-const projects = await Astro.glob<Project>('./project/**/*.md');
+const projects = await Astro.glob<Project>('../content/*.md');
 const featuredProject = projects[0]!;
 const { index } = siteConfig.pages;
 ---
