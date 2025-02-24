@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/project.astro
+layout: ../../layouts/project.astro
 title: Shotshare
 client: Self
 publishDate: 2022-06-14 00:00:00

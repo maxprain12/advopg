@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/project.astro
+layout: ../../layouts/project.astro
 title: ""
 client: CIC
 publishDate: 2022-07-01 00:00:00
